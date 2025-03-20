@@ -1,0 +1,11 @@
+import numpy as np 
+arr=np.random.randint(0,100,10)
+mean_value=np.mean(arr)
+median_value=np.median(arr)
+std_deviation=np.std(arr)
+variance_value=np.var(arr)
+print(arr)
+print("Mean Value:",mean_value)
+print("Median Value:",median_value)
+print("standrad deviation:",std_deviation)
+print("Variance value:",variance_value)
